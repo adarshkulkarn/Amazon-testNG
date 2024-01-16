@@ -22,7 +22,7 @@ public class Amazon {
 		signin.sendKeys("adarshkulkarni31@gmail.com");
 		driver.findElement(By.id("continue")).click();
 		WebElement password =driver.findElement(By.id("ap_password"));
-		password.sendKeys("SEEMAkulk@1");
+		password.sendKeys("Adarsh123");
 		driver.findElement(By.id("signInSubmit")).click();
 		WebElement Searchbox =driver.findElement(By.id("twotabsearchtextbox"));
 		Searchbox.sendKeys("cricket balls");
